@@ -26,7 +26,7 @@ def configurar_logger(componente: str):
 
 ### asi se crea el logger, debes pasarle el nombre del componente que lo usa. para hacer uso, 
 # se puede hacer con los metodos .info, .error, .warning, .exception, .critical, a los cuales se les debe pasar el mensaje en string.
-logging_transformacion_limpieza = configurar_logger("Ingesta")
+logging_ingesta = configurar_logger("Ingesta")
 
 
 

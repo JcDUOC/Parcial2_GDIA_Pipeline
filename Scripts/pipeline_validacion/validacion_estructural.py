@@ -52,7 +52,7 @@ def fechas_en_formato_erroneo(df : pd.DataFrame) -> pd.DataFrame:
 
     formato="%Y-%m-%d %H:%M:%S"
 
-    for s in columnas:
+    for s in columnas_con_fecha:
         df_edit[s] = pd.to_datetime(df_edit[s], format=formato, errors="coerce")
 
     serie_bool = df_edit.isna().any(axis=1)
@@ -65,8 +65,8 @@ def exportar_archivos(df_errores, df_validos, archivo_path_origen):
     os.makedirs("../../data/errors", exist_ok=True)
     nombre_archivo_origen = Path(archivo_path_origen).stem()
 
-    ruta_errors = "../../data/errors/" + nombre_archivo_origen + "_errors" + ".csv"
-    ruta_validos = "../../data/validated/" + nombre_archivo_origen + "_validated"+".csv"
+    ruta_errors = "../../data/errors/" + nombre_archivo_origen + "_errors_structural" + ".csv"
+    ruta_validos = "../../data/validated/" + nombre_archivo_origen + "_validated_structural"+".csv"
     
     df_errores.to_csv(ruta_errors)
 
@@ -88,7 +88,7 @@ def validar_estructuralmente(archivo_path: str) -> list[str, str]:
 
     error3 = fechas_en_formato_erroneo(df)
 
-    df_errores_extraidos = pd.concat([error1, error2, error3]).drop_duplicates(["viaje_id"], keep=first)
+    df_errores_extraidos = pd.concat([error1, error2, error3]).drop_duplicates(["viaje_id"], keep="first")
     indices_errores = df_errores_extraidos.index
 
     df_datos_validos = df.drop(indices_errores, errors = "ignore")

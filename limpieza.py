@@ -50,7 +50,7 @@ def limpiar_fechas(df: pd.DataFrame) -> pd.DataFrame:
         if n > 0:
             logging_limpieza.warning(f"Fechas inválidas en '{col}': {n} filas eliminadas.")
             df = df[~invalidos].copy()
-        df[col] = pd.to_datetime(df[col], errors="coerce")
+        df[col] = pd.to_datetime(df[col],format="%Y-%m-%d %H:%M:%S" ,errors="coerce")
     return df
 
 

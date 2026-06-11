@@ -3,7 +3,7 @@ import pandas as pd
 sys.path.append('C:/Users/JeanC/Parcial2_GDIA_Pipeline')
 
 import Scripts.logging_utils.logging_utils as lgu
-
+import Scripts.pipeline_ingesta.ingesta as ingesta
 
 
 
@@ -41,4 +41,30 @@ def nulos_en_datos_obligatorios(df: pd.DataFrame) -> pd.DataFrame:
 
     return df[resultado]
 
-def fechas_en_formato_erroneo():
+
+
+def fechas_en_formato_erroneo(df : pd.DataFrame) -> pd.DataFrame:
+    columnas_con_fecha = ["fecha_hora_entrada", "fecha_hora_salida"]
+
+    df_edit = df[columnas_con_fecha]
+
+    formato="%Y-%m-%d %H:%M:%S"
+
+    for s in columnas:
+        df_edit[s] = pd.to_datetime(df_edit[s], format=formato, errors="coerce")
+
+    serie_bool = df_edit.isna().any(axis=1)
+
+    return df[serie_bool]
+
+
+def validar_estructuralmente(archivo_path: str) -> list[str, str]:
+    df = ingesta.leer_archivo(archivo_path)
+   
+    error1 = datos_no_numerico(df)
+
+    error2 = nulos_en_datos_obligatorios(df)
+
+    error3 = fechas_en_formato_erroneo(df)
+
+    errores = pd.concat([error1, error2, error3], )

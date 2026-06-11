@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 import sys
+import requests
 
 sys.path.append('C:/Users/JeanC/Parcial2_GDIA_Pipeline')
 import Scripts.logging_utils.logging_utils as lgu
@@ -54,14 +55,27 @@ def leer_archivo(direccion_archivo : str, sheet_excel = 0 ) -> pd.DataFrame:
         lgu.logging_ingesta.warning(f"Se ingreso la ruta de un archivo inexistente: {direccion_archivo}")
 
     if(datos is not None):
-        lgu.logging_ingesta.info("[Finalizado] datos transformados en DataFrame")
+        lgu.logging_ingesta.info("[Finalizado] datos encontrados en {direccion_archivo} transformados en DataFrame")
 
     return datos
 
         
-
-def guardar_archivo_bruto_url(url : str) -> None:
+##funcion que obtiene el dataset, lo guarda en bruto y devuelve la ruta del archivo 
+def guardar_archivo_bruto_url(url : str = "https://duoccl0-my.sharepoint.com/personal/je_cament_duocuc_cl/_layouts/15/download.aspx?UniqueId=b351e369%2D18f7%2D4964%2Db9f3%2D2b98fa0d164b") -> str:
     
 
-    os.makedirs("data/raw", exist_ok=True)
+    os.makedirs("../../data/raw", exist_ok=True)
+
+    response = requests.get(url)
+
+    with open("../../data/raw/viajes_transporte_raw.csv", "wb", encoding="UTF-8") as f:
+        f.write(response.content)       
+
+    lgu.info("archivo viajes_transporte_raw.csv cargado en bruto en data/raw")
+
+
+
+    
+
+
 

@@ -69,8 +69,10 @@ def exportar_archivos(df_errores, df_validos, archivo_path_origen):
     ruta_validos = "../../data/validated/" + nombre_archivo_origen + "_validated_structural"+".csv"
     
     df_errores.to_csv(ruta_errors)
-
+    lgu.logging_validacion_estructural.info(f"errores estructurales encontrados en el archivo {nombre_archivo_origen} exportados al archivo {nombre_archivo_origen+"_errors_structural" + ".csv"}")
     df_validos.to_csv(ruta_validos)
+
+    lgu.logging_validacion_estructural.info(f"datos validados estructuralmente en el archivo {nombre_archivo_origen} exportados al archivo {nombre_archivo_origen+"_validated_structural"+".csv"}")
 
     return [ruta_validos, ruta_validos]
 
@@ -78,10 +80,10 @@ def exportar_archivos(df_errores, df_validos, archivo_path_origen):
 
 
 
-
+## funcion principal del componente 
 def validar_estructuralmente(archivo_path: str) -> list[str, str]:
     df = ingesta.leer_archivo(archivo_path)
-   
+    nombre_archivo_origen = Path(archivo_path).stem()
     error1 = datos_no_numerico(df)
 
     error2 = nulos_en_datos_obligatorios(df)
@@ -92,6 +94,10 @@ def validar_estructuralmente(archivo_path: str) -> list[str, str]:
     indices_errores = df_errores_extraidos.index
 
     df_datos_validos = df.drop(indices_errores, errors = "ignore")
+
+    lgu.logging_validacion_estructural.info("errores semanticos del archivo {nombre_archivo_origen} extraidos")
+
+
 
     return exportar_archivos(df_errores_extraidos, df_datos_validos, archivo_path)
 

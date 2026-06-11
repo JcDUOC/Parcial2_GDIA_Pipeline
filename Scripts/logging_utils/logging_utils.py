@@ -29,11 +29,10 @@ def configurar_logger(componente: str):
 logging_ingesta = configurar_logger("Ingesta")
 
 
+logging_validacion_estructural = configurar_logger("validacion estructural")
 
 
-
-
-
+logging_validacion_semantica = configurar_logger("validacion semantica")
 
 
 

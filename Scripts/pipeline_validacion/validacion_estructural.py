@@ -4,7 +4,9 @@ sys.path.append('C:/Users/JeanC/Parcial2_GDIA_Pipeline')
 
 import Scripts.logging_utils.logging_utils as lgu
 import Scripts.pipeline_ingesta.ingesta as ingesta
+import os
 
+from pathlib import Path
 
 
 def comparar_series_booleanas(lista: pd.Series) -> pd.Series:
@@ -58,6 +60,25 @@ def fechas_en_formato_erroneo(df : pd.DataFrame) -> pd.DataFrame:
     return df[serie_bool]
 
 
+def exportar_archivos(df_errores, df_validos, archivo_path_origen):
+    os.makedirs("../../data/validated", exist_ok=True)
+    os.makedirs("../../data/errors", exist_ok=True)
+    nombre_archivo_origen = Path(archivo_path_origen).stem()
+
+    ruta_errors = "../../data/errors/" + nombre_archivo_origen + "_errors" + ".csv"
+    ruta_validos = "../../data/validated/" + nombre_archivo_origen + "_validated"+".csv"
+    
+    df_errores.to_csv(ruta_errors)
+
+    df_validos.to_csv(ruta_validos)
+
+    return [ruta_validos, ruta_validos]
+
+
+
+
+
+
 def validar_estructuralmente(archivo_path: str) -> list[str, str]:
     df = ingesta.leer_archivo(archivo_path)
    
@@ -67,4 +88,13 @@ def validar_estructuralmente(archivo_path: str) -> list[str, str]:
 
     error3 = fechas_en_formato_erroneo(df)
 
-    errores = pd.concat([error1, error2, error3], )
+    df_errores_extraidos = pd.concat([error1, error2, error3]).drop_duplicates(["viaje_id"], keep=first)
+    indices_errores = df_errores_extraidos.index
+
+    df_datos_validos = df.drop(indices_errores, errors = "ignore")
+
+    return exportar_archivos(df_errores_extraidos, df_datos_validos, archivo_path)
+
+
+
+

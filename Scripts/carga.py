@@ -42,11 +42,11 @@ def crear_tabla(cursor):
     """)
 
 
-def cargar_datos_bd():
+def cargar_datos_bd(ruta_origen : str):
 
     os.makedirs("database", exist_ok=True)
 
-    ruta_csv = "data/clean/datos_limpios.csv"
+    ruta_csv = ruta_origen
     ruta_bd = "database/transporte.db"
 
     conn = None

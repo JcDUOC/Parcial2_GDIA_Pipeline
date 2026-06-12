@@ -32,10 +32,10 @@ def hora_salida_presente_hora_entrada_no(df : pd.DataFrame):
 
 def lineas_no_correctas(df: pd.DataFrame):
     lineas_en_chile = ["L1", "L2", "L3", "L4", "L4A", "L4a", "L5", "L6"]
-
+    
     columna_linea = ["linea"]
     return df[~(
-                df[columna_linea].isin(lineas_en_chile)
+                df[columna_linea[0]].isin(lineas_en_chile)
             )]
 
 
@@ -48,6 +48,7 @@ def exportar_archivos(df_errores, df_validos, archivo_path_origen)  -> list[str,
     #ruta_errors = errors_dir / f"{nombre_archivo_origen}_errores_semantica.csv"
     #ruta_validos = validated_dir / f"{nombre_archivo_origen}_validated_semantica.csv"
     
+    print(df_errores)
     
     
     ruta_errors = "data/errors/" + nombre_archivo_origen + "_errores_semantica" + ".csv"
@@ -68,7 +69,7 @@ def exportar_archivos(df_errores, df_validos, archivo_path_origen)  -> list[str,
 
 def validar_semantica(ruta : str) -> list[str, str]:
     df = ingesta.leer_archivo(ruta)
-
+    
     nombre_archivo_origen = Path(ruta).stem
     
     errores_1 = hora_salida_presente_hora_entrada_no(df)

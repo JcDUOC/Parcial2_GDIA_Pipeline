@@ -52,7 +52,7 @@ def main():
 
     print("\n[5] CARGA A BASE DE DATOS")
 
-    cargar_datos_bd()
+    cargar_datos_bd(rutas_semantica[0])
 
     print("\nPIPELINE FINALIZADO")
 

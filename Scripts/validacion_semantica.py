@@ -10,13 +10,13 @@ import ingesta as ingesta
 import logging_utils.logging_utils as lgu
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+#BASE_DIR = Path(__file__).resolve().parent.parent
 
-errors_dir = BASE_DIR / "data" / "errors"
-validated_dir = BASE_DIR / "data" / "validated"
+#errors_dir = BASE_DIR / "data" / "errors"
+#validated_dir = BASE_DIR / "data" / "validated"
 
-errors_dir.mkdir(parents=True, exist_ok=True)
-validated_dir.mkdir(parents=True, exist_ok=True)
+#errors_dir.mkdir(parents=True, exist_ok=True)
+#validated_dir.mkdir(parents=True, exist_ok=True)
 
 
 
@@ -40,18 +40,18 @@ def lineas_no_correctas(df: pd.DataFrame):
 
 
 def exportar_archivos(df_errores, df_validos, archivo_path_origen)  -> list[str, str]:
-    os.makedirs("../../data/validated", exist_ok=True)
-    os.makedirs("../../data/errors", exist_ok=True)
+    os.makedirs("data/validated", exist_ok=True)
+    os.makedirs("data/errors", exist_ok=True)
     nombre_archivo_origen = Path(archivo_path_origen).stem
     
     
-    ruta_errors = errors_dir / f"{nombre_archivo_origen}_errors_structural.csv"
-    ruta_validos = validated_dir / f"{nombre_archivo_origen}_validated_structural.csv"
+    #ruta_errors = errors_dir / f"{nombre_archivo_origen}_errores_semantica.csv"
+    #ruta_validos = validated_dir / f"{nombre_archivo_origen}_validated_semantica.csv"
     
     
     
-    #ruta_errors = "../../data/errors/" + nombre_archivo_origen + "_errores_semantica" + ".csv"
-    #ruta_validos = "../../data/validated/" + nombre_archivo_origen + "_validated_semantica"+".csv"
+    ruta_errors = "data/errors/" + nombre_archivo_origen + "_errores_semantica" + ".csv"
+    ruta_validos = "data/validated/" + nombre_archivo_origen + "_validated_semantica"+".csv"
     
     df_errores.to_csv(ruta_errors)
     lgu.logging_validacion_semantica.info(f"errores semanticos encontrados en el archivo {nombre_archivo_origen} exportados al archivo {nombre_archivo_origen +"_errores_semantica" + ".csv"}")
@@ -59,7 +59,7 @@ def exportar_archivos(df_errores, df_validos, archivo_path_origen)  -> list[str,
 
     df_validos.to_csv(ruta_validos)
     lgu.logging_validacion_semantica.info(f"datos validados semanticamente del archivo {nombre_archivo_origen} exportados al archivo {nombre_archivo_origen +"_validated_semantica" + ".csv"}")
-    return [ruta_validos, ruta_validos]
+    return [ruta_validos, ruta_errors]
 
 
 
@@ -82,7 +82,7 @@ def validar_semantica(ruta : str) -> list[str, str]:
     
     df_datos_validos = df.drop(indices_errores, errors = "ignore")
 
-    lgu.logging_validacion_estructural.info("errores semanticos del archivo {nombre_archivo_origen} extraidos")
+    lgu.logging_validacion_semantica.info(f"errores semanticos del archivo {nombre_archivo_origen} extraidos")
 
     return exportar_archivos(df_errores_extraidos, df_datos_validos, ruta)
 

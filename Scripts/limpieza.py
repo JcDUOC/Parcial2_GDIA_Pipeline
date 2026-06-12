@@ -16,7 +16,7 @@ from ingesta import leer_archivo
 logging_limpieza = lgu.configurar_logger("Limpieza")
 
 
-LINEAS_VALIDAS      = ["L1", "L2", "L4", "L4A", "L5", "L6"]
+LINEAS_VALIDAS      = ["L1", "L2","L3", "L4", "L4A", "L5", "L6"]
 TIPOS_TARJETA_VALID = ["BIP!", "BIP! Adulto Mayor", "BIP! Estudiante", "BIP! TNE", "Efectivo"]
 
 

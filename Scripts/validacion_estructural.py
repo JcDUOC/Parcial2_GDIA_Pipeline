@@ -14,6 +14,16 @@ import os
 from pathlib import Path
 
 
+#BASE_DIR = Path(__file__).resolve().parent.parent
+
+#errors_dir = BASE_DIR / "data" / "errors"
+#validated_dir = BASE_DIR / "data" / "validated"
+
+#errors_dir.mkdir(parents=True, exist_ok=True)
+#validated_dir.mkdir(parents=True, exist_ok=True)
+
+
+
 def comparar_series_booleanas(lista: pd.Series) -> pd.Series:
     resultado = lista.iloc[0]
 
@@ -69,12 +79,15 @@ def fechas_en_formato_erroneo(df : pd.DataFrame) -> pd.DataFrame:
 
 
 def exportar_archivos(df_errores, df_validos, archivo_path_origen):
-    os.makedirs("../../data/validated", exist_ok=True)
-    os.makedirs("../../data/errors", exist_ok=True)
+    os.makedirs("data/validated", exist_ok=True)
+    os.makedirs(".data/errors", exist_ok=True)
     nombre_archivo_origen = Path(archivo_path_origen).stem
 
-    ruta_errors = "../../data/errors/" + nombre_archivo_origen + "_errors_structural" + ".csv"
-    ruta_validos = "../../data/validated/" + nombre_archivo_origen + "_validated_structural"+".csv"
+    ruta_errors = "data/errors/" + nombre_archivo_origen + "_errors_structural" + ".csv"
+    ruta_validos = "data/validated/" + nombre_archivo_origen + "_validated_structural"+".csv"
+    
+    #ruta_errors = errors_dir / f"{nombre_archivo_origen}_errors_structural.csv"
+    #ruta_validos = validated_dir / f"{nombre_archivo_origen}_validated_structural.csv"
     
     df_errores.to_csv(ruta_errors)
     lgu.logging_validacion_estructural.info(f"errores estructurales encontrados en el archivo {nombre_archivo_origen} exportados al archivo {nombre_archivo_origen+"_errors_structural" + ".csv"}")
@@ -103,7 +116,7 @@ def validar_estructuralmente(archivo_path: str) -> list[str, str]:
 
     df_datos_validos = df.drop(indices_errores, errors = "ignore")
 
-    lgu.logging_validacion_estructural.info("errores semanticos del archivo {nombre_archivo_origen} extraidos")
+    lgu.logging_validacion_estructural.info(f"errores semanticos del archivo {nombre_archivo_origen} extraidos")
 
 
 

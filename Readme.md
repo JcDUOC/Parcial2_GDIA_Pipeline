@@ -12,14 +12,14 @@
 
 **Transporte Urbano — Viajes en Metro de Santiago**
 
-El dataset simula registros del sistema de transporte público de Santiago (Metro + RED Movilidad). Contiene información de viajes individuales: estaciones de entrada y salida, línea utilizada, tipo de tarjeta BIP!, tarifa pagada, duración del viaje y número de pasajeros.
+El dataset simula registros del sistema de transporte público de Santiago. Contiene información de viajes individuales: estaciones de entrada y salida, línea utilizada, tipo de tarjeta BIP!, tarifa pagada, duración del viaje y número de pasajeros.
 
 ### Preguntas que busca responder el pipeline
 
-1. ¿Cuántos viajes se realizan por línea?
+1. ¿Cuántos viajes se realizan por línea ?
 2. ¿En qué franja horaria se evade más la tarifa?
-3. ¿Cuál es la recaudación real por tipo de tarjeta?
-4. ¿Cuáles son las estaciones con mayor demanda?
+3. ¿Cuanto se recauda por tipo de tarjeta?
+4. ¿Cuáles son las estaciones mas concurridas?
 
 ---
 
@@ -59,7 +59,7 @@ Parcial2_GDIA_Pipeline/
 pip install pandas numpy pandera pathlib
 ```
 
-Python 3.10 o superior recomendado.
+Python entre 3.10 y 3.14.
 
 ---
 
@@ -73,7 +73,7 @@ Desde la carpeta `Scripts/`:
 python main.py
 ```
 
-Esto ejecuta las 4 etapas en orden: limpieza → validación estructural → validación semántica → carga a BD.
+Esto ejecuta las 4 etapas en orden: ingesta &rarr; limpieza &rarr; validación estructural &rarr; validación semántica &rarr; carga a BD.
 
 ### Ejecución por etapas
 
@@ -120,6 +120,10 @@ data/raw/viajes_transporte_raw.csv
 - La función `leer_archivo()` soporta tres extensiones: `.csv`, `.xlsx`/`.xls` y `.txt`, usando `pd.read_csv`, `pd.read_excel` y `pd.read_table` respectivamente.
 - Si la ruta no existe o la lectura falla, se registra el error en el log y se retorna `None` para detener el pipeline de forma controlada.
 - El archivo se guarda sin ninguna modificación en `data/raw/` para preservar el dato original.
+- Se creo un logger por componente, para facilitar la trazabilidad.
+- Los tipos de validación se separaron en etapas diferentes.
+- Se creo un entorno virtual con venv para evitar el conflicto de versiones.
+
 
 ### Etapa 2 — Limpieza (`limpieza.py`)
 

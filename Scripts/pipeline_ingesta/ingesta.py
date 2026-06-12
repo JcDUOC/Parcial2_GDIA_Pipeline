@@ -61,17 +61,19 @@ def leer_archivo(direccion_archivo : str, sheet_excel = 0 ) -> pd.DataFrame:
 
         
 ##funcion que obtiene el dataset, lo guarda en bruto y devuelve la ruta del archivo 
-def guardar_archivo_bruto_url(url : str = "https://duoccl0-my.sharepoint.com/personal/je_cament_duocuc_cl/_layouts/15/download.aspx?UniqueId=b351e369%2D18f7%2D4964%2Db9f3%2D2b98fa0d164b") -> str:
+def guardar_archivo_bruto_url(url : str = "https://usc-excel.officeapps.live.com/x/_layouts/XlFileHandler.aspx?sheetName=in&downloadAsCsvEnabled=1&WacUserType=WOPI&usid=30e61928-581b-0527-9d70-a6c639959b9a&NoAuth=1&waccluster=PUS8") -> str:
     
 
-    os.makedirs("../../data/raw", exist_ok=True)
+    os.makedirs("data/raw", exist_ok=True)
 
     response = requests.get(url)
 
-    with open("../../data/raw/viajes_transporte_raw.csv", "wb", encoding="UTF-8") as f:
-        f.write(response.content)       
+    print(response)
 
-    lgu.info("archivo viajes_transporte_raw.csv cargado en bruto en data/raw")
+    with open("data/raw/viajes_transporte_raw.csv", "w", encoding="utf-8") as f:
+        f.write(response.text)       
+
+    lgu.logging_ingesta.info("archivo viajes_transporte_raw.csv cargado en bruto en data/raw")
 
 
 

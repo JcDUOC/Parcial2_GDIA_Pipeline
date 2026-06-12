@@ -1,0 +1,60 @@
+| 2026-06-11 19:30:36,851 --- INFO --- ============================================================ |
+| 2026-06-11 19:30:36,852 --- INFO --- INICIO — Etapa 4: Carga a Base de Datos |
+| 2026-06-11 19:30:36,852 --- INFO --- ============================================================ |
+| 2026-06-11 19:30:36,854 --- INFO --- Dataset recibido: 323 filas x 13 columnas |
+| 2026-06-11 19:30:36,899 --- INFO --- Tabla 'viajes' creada/verificada. |
+| 2026-06-11 19:30:36,926 --- INFO --- COMMIT realizado correctamente. Registros cargados: 323 |
+| 2026-06-11 19:30:36,927 --- INFO --- Verificación SQL: 320 registros almacenados. |
+| 2026-06-11 19:30:36,928 --- INFO --- Consulta GROUP BY ejecutada correctamente. |
+| 2026-06-11 19:30:36,928 --- INFO --- FIN — Etapa 4: Carga a Base de Datos completada. |
+| 2026-06-11 19:30:36,928 --- INFO --- Conexión cerrada. |
+| 2026-06-11 19:39:55,712 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:55,712 --- INFO --- INICIO — Etapa 4: Carga a Base de Datos |
+| 2026-06-11 19:39:55,712 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:55,713 --- INFO --- Dataset recibido: 323 filas x 13 columnas |
+| 2026-06-11 19:39:55,714 --- INFO --- Tabla 'viajes' creada/verificada. |
+| 2026-06-11 19:39:55,743 --- INFO --- COMMIT realizado correctamente. Registros cargados: 323 |
+| 2026-06-11 19:39:55,743 --- INFO --- Verificación SQL: 320 registros almacenados. |
+| 2026-06-11 19:39:55,744 --- INFO --- Consulta GROUP BY ejecutada correctamente. |
+| 2026-06-11 19:39:55,744 --- INFO --- FIN — Etapa 4: Carga a Base de Datos completada. |
+| 2026-06-11 19:39:55,744 --- INFO --- Conexión cerrada. |
+| 2026-06-11 19:40:32,873 --- INFO --- ============================================================ |
+| 2026-06-11 19:40:32,873 --- INFO --- INICIO — Etapa 4: Carga a Base de Datos |
+| 2026-06-11 19:40:32,873 --- INFO --- ============================================================ |
+| 2026-06-11 19:40:32,874 --- INFO --- Dataset recibido: 323 filas x 13 columnas |
+| 2026-06-11 19:40:32,876 --- INFO --- Tabla 'viajes' creada/verificada. |
+| 2026-06-11 19:40:32,907 --- INFO --- COMMIT realizado correctamente. Registros cargados: 323 |
+| 2026-06-11 19:40:32,907 --- INFO --- Verificación SQL: 320 registros almacenados. |
+| 2026-06-11 19:40:32,908 --- INFO --- Consulta GROUP BY ejecutada correctamente. |
+| 2026-06-11 19:40:32,908 --- INFO --- FIN — Etapa 4: Carga a Base de Datos completada. |
+| 2026-06-11 19:40:32,908 --- INFO --- Conexión cerrada. |
+| 2026-06-11 20:01:47,375 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:47,375 --- INFO --- INICIO — Etapa 4: Carga a Base de Datos |
+| 2026-06-11 20:01:47,375 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:47,376 --- INFO --- Dataset recibido: 323 filas x 13 columnas |
+| 2026-06-11 20:01:47,377 --- INFO --- Tabla 'viajes' creada/verificada. |
+| 2026-06-11 20:01:47,405 --- INFO --- COMMIT realizado correctamente. Registros cargados: 323 |
+| 2026-06-11 20:01:47,405 --- INFO --- Verificación SQL: 320 registros almacenados. |
+| 2026-06-11 20:01:47,405 --- INFO --- Consulta GROUP BY ejecutada correctamente. |
+| 2026-06-11 20:01:47,406 --- INFO --- FIN — Etapa 4: Carga a Base de Datos completada. |
+| 2026-06-11 20:01:47,406 --- INFO --- Conexión cerrada. |
+| 2026-06-11 20:01:56,324 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:56,324 --- INFO --- INICIO — Etapa 4: Carga a Base de Datos |
+| 2026-06-11 20:01:56,324 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:56,326 --- INFO --- Dataset recibido: 323 filas x 13 columnas |
+| 2026-06-11 20:01:56,327 --- INFO --- Tabla 'viajes' creada/verificada. |
+| 2026-06-11 20:01:56,363 --- INFO --- COMMIT realizado correctamente. Registros cargados: 323 |
+| 2026-06-11 20:01:56,363 --- INFO --- Verificación SQL: 320 registros almacenados. |
+| 2026-06-11 20:01:56,364 --- INFO --- Consulta GROUP BY ejecutada correctamente. |
+| 2026-06-11 20:01:56,364 --- INFO --- FIN — Etapa 4: Carga a Base de Datos completada. |
+| 2026-06-11 20:01:56,364 --- INFO --- Conexión cerrada. |
+| 2026-06-11 20:04:36,413 --- INFO --- ============================================================ |
+| 2026-06-11 20:04:36,413 --- INFO --- INICIO — Etapa 4: Carga a Base de Datos |
+| 2026-06-11 20:04:36,413 --- INFO --- ============================================================ |
+| 2026-06-11 20:04:36,415 --- INFO --- Dataset recibido: 323 filas x 13 columnas |
+| 2026-06-11 20:04:36,417 --- INFO --- Tabla 'viajes' creada/verificada. |
+| 2026-06-11 20:04:36,468 --- INFO --- COMMIT realizado correctamente. Registros cargados: 323 |
+| 2026-06-11 20:04:36,468 --- INFO --- Verificación SQL: 320 registros almacenados. |
+| 2026-06-11 20:04:36,469 --- INFO --- Consulta GROUP BY ejecutada correctamente. |
+| 2026-06-11 20:04:36,469 --- INFO --- FIN — Etapa 4: Carga a Base de Datos completada. |
+| 2026-06-11 20:04:36,469 --- INFO --- Conexión cerrada. |

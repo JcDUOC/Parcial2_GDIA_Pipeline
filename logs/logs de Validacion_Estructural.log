@@ -1,0 +1,26 @@
+| 2026-06-11 19:39:05,170 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 19:39:05,171 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 19:39:05,173 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 19:39:09,748 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 19:39:09,749 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 19:39:09,759 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 19:39:55,687 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 19:39:55,688 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 19:39:55,691 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 19:39:55,707 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 19:40:32,840 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 19:40:32,841 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 19:40:32,842 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 19:40:32,854 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:01:47,356 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:01:47,357 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 20:01:47,359 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 20:01:47,371 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:01:56,305 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:01:56,306 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 20:01:56,308 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 20:01:56,320 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:04:36,387 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:04:36,389 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-11 20:04:36,391 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-11 20:04:36,408 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |

@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 sys.path.append('C:/Users/JeanC/Parcial2_GDIA_Pipeline')
-import Scripts.logging_utils.logging_utils as lgu
+import logging_utils.logging_utils as lgu
 import os
 
 from ingesta import leer_archivo
@@ -12,9 +12,6 @@ from ingesta import leer_archivo
 logging_limpieza = lgu.configurar_logger("Limpieza")
 
 
-# ─────────────────────────────────────────
-#  Valores válidos por columna categórica
-# ─────────────────────────────────────────
 LINEAS_VALIDAS      = ["L1", "L2", "L4", "L4A", "L5", "L6"]
 TIPOS_TARJETA_VALID = ["BIP!", "BIP! Adulto Mayor", "BIP! Estudiante", "BIP! TNE", "Efectivo"]
 
@@ -45,7 +42,7 @@ def limpiar_fechas(df: pd.DataFrame) -> pd.DataFrame:
         if col not in df.columns:
             logging_limpieza.warning(f"Columna '{col}' no encontrada, se omite.")
             continue
-        invalidos = pd.to_datetime(df[col], errors="coerce").isna()
+        invalidos = pd.to_datetime(df[col], format="%Y-%m-%d %H:%M:%S", errors="coerce").isna()
         n = invalidos.sum()
         if n > 0:
             logging_limpieza.warning(f"Fechas inválidas en '{col}': {n} filas eliminadas.")
@@ -111,9 +108,6 @@ def eliminar_nulos_criticos(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# ─────────────────────────────────────────
-#  Transformaciones
-# ─────────────────────────────────────────
 
 def agregar_franja_horaria(df: pd.DataFrame) -> pd.DataFrame:
     if "fecha_hora_entrada" not in df.columns:
@@ -151,10 +145,6 @@ def agregar_flag_evasion(df: pd.DataFrame) -> pd.DataFrame:
     logging_limpieza.info("T3: Columna 'evasion' creada (1 = evasión de tarifa).")
     return df
 
-
-# ─────────────────────────────────────────
-#  Función principal
-# ─────────────────────────────────────────
 
 def limpiar_datos(direccion_archivo: str, sheet_excel=0) -> pd.DataFrame:
 

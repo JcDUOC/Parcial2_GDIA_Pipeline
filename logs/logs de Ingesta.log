@@ -1,0 +1,70 @@
+| 2026-06-11 19:18:20,469 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:18:20,470 --- WARNING --- Se ingreso la ruta de un archivo inexistente: data/raw/viajes_transporte_raw.csv |
+| 2026-06-11 19:21:06,004 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:21:06,046 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:31:40,017 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:31:40,019 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:31:40,032 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:31:40,039 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:36:13,453 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:36:13,456 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:36:13,468 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:36:13,476 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:36:17,918 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:36:17,921 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:36:17,932 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:36:17,939 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:36:55,568 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:36:55,570 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:36:55,583 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:36:55,592 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:38:02,905 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:38:02,908 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:38:02,920 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:38:02,929 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:38:07,258 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:38:07,260 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:38:07,272 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:38:07,281 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:05,143 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:05,146 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:05,158 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:05,166 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:05,173 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:05,182 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:09,722 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:09,725 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:09,736 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:09,744 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:09,759 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:09,765 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:55,660 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:55,663 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:55,675 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:55,684 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:39:55,691 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:39:55,698 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:40:32,814 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:40:32,816 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:40:32,829 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:40:32,836 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 19:40:32,842 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 19:40:32,850 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:01:47,329 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:01:47,332 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:01:47,344 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:01:47,353 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:01:47,359 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:01:47,366 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:01:56,275 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:01:56,278 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:01:56,292 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:01:56,301 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:01:56,308 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:01:56,316 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:04:36,347 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:04:36,350 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:04:36,364 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:04:36,383 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-11 20:04:36,392 --- INFO --- iniciando lectura de datos. |
+| 2026-06-11 20:04:36,401 --- INFO --- [Finalizado] datos transformados en DataFrame |

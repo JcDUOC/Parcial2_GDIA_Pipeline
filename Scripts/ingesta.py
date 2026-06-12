@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 
 sys.path.append('C:/Users/JeanC/Parcial2_GDIA_Pipeline')
-import Scripts.logging_utils.logging_utils as lgu
+import logging_utils.logging_utils as lgu
 import os 
 
 

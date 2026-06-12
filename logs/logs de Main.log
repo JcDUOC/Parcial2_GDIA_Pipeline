@@ -1,0 +1,122 @@
+| 2026-06-11 19:31:40,016 --- INFO --- ============================================================ |
+| 2026-06-11 19:31:40,016 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:31:40,016 --- INFO --- ============================================================ |
+| 2026-06-11 19:31:40,016 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:31:40,032 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:31:40,032 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:36:13,452 --- INFO --- ============================================================ |
+| 2026-06-11 19:36:13,452 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:36:13,452 --- INFO --- ============================================================ |
+| 2026-06-11 19:36:13,452 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:36:13,467 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:36:13,468 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:36:17,917 --- INFO --- ============================================================ |
+| 2026-06-11 19:36:17,918 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:36:17,918 --- INFO --- ============================================================ |
+| 2026-06-11 19:36:17,918 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:36:17,932 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:36:17,932 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:36:55,567 --- INFO --- ============================================================ |
+| 2026-06-11 19:36:55,567 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:36:55,567 --- INFO --- ============================================================ |
+| 2026-06-11 19:36:55,567 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:36:55,583 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:36:55,583 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:38:02,905 --- INFO --- ============================================================ |
+| 2026-06-11 19:38:02,905 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:38:02,905 --- INFO --- ============================================================ |
+| 2026-06-11 19:38:02,905 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:38:02,920 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:38:02,920 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:38:07,257 --- INFO --- ============================================================ |
+| 2026-06-11 19:38:07,257 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:38:07,257 --- INFO --- ============================================================ |
+| 2026-06-11 19:38:07,257 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:38:07,272 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:38:07,272 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:39:05,142 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:05,143 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:39:05,143 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:05,143 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:39:05,158 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:39:05,158 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:39:05,173 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 19:39:05,173 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 19:39:09,722 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:09,722 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:39:09,722 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:09,722 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:39:09,736 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:39:09,736 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:39:09,759 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 19:39:09,759 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 19:39:55,660 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:55,660 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:39:55,660 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:55,660 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:39:55,675 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:39:55,675 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:39:55,691 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 19:39:55,691 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 19:39:55,711 --- INFO --- Etapa 3b completada. Válidos en: ../../data/validated/datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 19:39:55,711 --- INFO --- Iniciando Etapa 4: Carga a Base de Datos. |
+| 2026-06-11 19:39:55,744 --- INFO --- Etapa 4 completada. |
+| 2026-06-11 19:39:55,744 --- INFO --- ============================================================ |
+| 2026-06-11 19:39:55,744 --- INFO --- FIN — Pipeline completado exitosamente. |
+| 2026-06-11 19:39:55,744 --- INFO --- ============================================================ |
+| 2026-06-11 19:40:32,813 --- INFO --- ============================================================ |
+| 2026-06-11 19:40:32,814 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 19:40:32,814 --- INFO --- ============================================================ |
+| 2026-06-11 19:40:32,814 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 19:40:32,829 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 19:40:32,829 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 19:40:32,842 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 19:40:32,842 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 19:40:32,873 --- INFO --- Etapa 3b completada. Válidos en: ../../data/validated/datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 19:40:32,873 --- INFO --- Iniciando Etapa 4: Carga a Base de Datos. |
+| 2026-06-11 19:40:32,908 --- INFO --- Etapa 4 completada. |
+| 2026-06-11 19:40:32,908 --- INFO --- ============================================================ |
+| 2026-06-11 19:40:32,908 --- INFO --- FIN — Pipeline completado exitosamente. |
+| 2026-06-11 19:40:32,908 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:47,328 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:47,328 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 20:01:47,328 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:47,328 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 20:01:47,344 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 20:01:47,344 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 20:01:47,359 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 20:01:47,359 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 20:01:47,374 --- INFO --- Etapa 3b completada. Válidos en: ../../data/validated/datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:01:47,374 --- INFO --- Iniciando Etapa 4: Carga a Base de Datos. |
+| 2026-06-11 20:01:47,406 --- INFO --- Etapa 4 completada. |
+| 2026-06-11 20:01:47,406 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:47,406 --- INFO --- FIN — Pipeline completado exitosamente. |
+| 2026-06-11 20:01:47,406 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:56,274 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:56,275 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 20:01:56,275 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:56,275 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 20:01:56,292 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 20:01:56,292 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 20:01:56,308 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 20:01:56,308 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 20:01:56,324 --- INFO --- Etapa 3b completada. Válidos en: ../../data/validated/datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:01:56,324 --- INFO --- Iniciando Etapa 4: Carga a Base de Datos. |
+| 2026-06-11 20:01:56,364 --- INFO --- Etapa 4 completada. |
+| 2026-06-11 20:01:56,364 --- INFO --- ============================================================ |
+| 2026-06-11 20:01:56,364 --- INFO --- FIN — Pipeline completado exitosamente. |
+| 2026-06-11 20:01:56,364 --- INFO --- ============================================================ |
+| 2026-06-11 20:04:36,347 --- INFO --- ============================================================ |
+| 2026-06-11 20:04:36,347 --- INFO --- INICIO — Pipeline de Datos: Transporte Urbano |
+| 2026-06-11 20:04:36,347 --- INFO --- ============================================================ |
+| 2026-06-11 20:04:36,347 --- INFO --- Iniciando Etapa 2: Limpieza y Transformación. |
+| 2026-06-11 20:04:36,364 --- INFO --- Etapa 2 completada. 323 filas limpias. |
+| 2026-06-11 20:04:36,364 --- INFO --- Iniciando Etapa 3a: Validación Estructural. |
+| 2026-06-11 20:04:36,392 --- INFO --- Etapa 3a completada. Válidos en: ../../data/validated/datos_limpios_validated_structural.csv |
+| 2026-06-11 20:04:36,392 --- INFO --- Iniciando Etapa 3b: Validación Semántica. |
+| 2026-06-11 20:04:36,413 --- INFO --- Etapa 3b completada. Válidos en: ../../data/validated/datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:04:36,413 --- INFO --- Iniciando Etapa 4: Carga a Base de Datos. |
+| 2026-06-11 20:04:36,469 --- INFO --- Etapa 4 completada. |
+| 2026-06-11 20:04:36,469 --- INFO --- ============================================================ |
+| 2026-06-11 20:04:36,469 --- INFO --- FIN — Pipeline completado exitosamente. |
+| 2026-06-11 20:04:36,469 --- INFO --- ============================================================ |

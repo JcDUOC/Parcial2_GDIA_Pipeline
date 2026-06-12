@@ -8,3 +8,11 @@
 | 2026-06-11 20:01:56,324 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
 | 2026-06-11 20:04:36,410 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
 | 2026-06-11 20:04:36,413 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:25:08,069 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:25:08,071 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:25:54,915 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:25:54,917 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:26:38,449 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:26:38,451 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:29:28,562 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:29:28,564 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |

@@ -1,76 +1,46 @@
-import sys
-import os
+from validacion_estructural import validar_estructuralmente
+from validacion_semantica import validar_semantica
+from limpieza import limpiar_datos
+from carga import cargar_datos_bd
 from pathlib import Path
+import sys
+BASE_DIR = Path(__file__).resolve().parent
+sys.path.append(str(BASE_DIR))
+def main():
 
+    ruta_archivo = "data/raw/viajes_transporte_raw.csv"
 
-ROOT_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(str(ROOT_DIR))
+    print("=" * 60)
+    print("INICIANDO PIPELINE ETL")
+    print("=" * 60)
 
+    
+    print("\n[1/4] Validación estructural...")
+    rutas_estructural = validar_estructuralmente(ruta_archivo)
 
+    archivo_validado_estructural = rutas_estructural[0]
 
-import logging_utils.logging_utils as lgu
-import limpieza as lim
-import validacion_estructural as val_est
-import validacion_semantica as val_sem
-import carga
+    print("\n[2/4] Validación semántica...")
+    rutas_semantica = validar_semantica(archivo_validado_estructural)
 
-logging_main = lgu.configurar_logger("Main")
+    archivo_validado_semantica = rutas_semantica[0]
 
-RUTA_RAW     = "data/raw/viajes_transporte_raw.csv"
-RUTA_CLEAN   = "data/clean/datos_limpios.csv"
-
-
-def ejecutar_pipeline():
-
-    logging_main.info("=" * 60)
-    logging_main.info("INICIO — Pipeline de Datos: Transporte Urbano")
-    logging_main.info("=" * 60)
-
-    logging_main.info("Iniciando Etapa 2: Limpieza y Transformación.")
-
-    df_limpio = lim.limpiar_datos(RUTA_RAW)
+   
+    print("\n[3/4] Limpieza y transformación...")
+    df_limpio = limpiar_datos(archivo_validado_semantica)
 
     if df_limpio is None:
-        logging_main.error("Etapa 2 falló. Pipeline detenido.")
+        print("Error durante la limpieza.")
         return
 
-    logging_main.info(f"Etapa 2 completada. {df_limpio.shape[0]} filas limpias.")
 
-    
-    logging_main.info("Iniciando Etapa 3a: Validación Estructural.")
+    print("\n[4/4] Carga a SQLite...")
+    cargar_datos_bd()
 
-    rutas_estructural = val_est.validar_estructuralmente(RUTA_CLEAN)
-
-    if rutas_estructural is None:
-        logging_main.error("Etapa 3a falló. Pipeline detenido.")
-        return
-
-    ruta_validos_estructural = rutas_estructural[0]
-
-    logging_main.info(f"Etapa 3a completada. Válidos en: {ruta_validos_estructural}")
-
-    
-    logging_main.info("Iniciando Etapa 3b: Validación Semántica.")
-
-    rutas_semantica = val_sem.validar_semantica(ruta_validos_estructural)
-
-    if rutas_semantica is None:
-        logging_main.error("Etapa 3b falló. Pipeline detenido.")
-        return
-
-    logging_main.info(f"Etapa 3b completada. Válidos en: {rutas_semantica[0]}")
-
-
-    logging_main.info("Iniciando Etapa 4: Carga a Base de Datos.")
-
-    carga.cargar_datos_bd()
-
-    logging_main.info("Etapa 4 completada.")
-
-    logging_main.info("=" * 60)
-    logging_main.info("FIN — Pipeline completado exitosamente.")
-    logging_main.info("=" * 60)
+    print("\n" + "=" * 60)
+    print("PIPELINE FINALIZADO CORRECTAMENTE")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
-    ejecutar_pipeline()
+    main()

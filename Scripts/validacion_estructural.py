@@ -1,6 +1,11 @@
 import sys
 import pandas as pd
-sys.path.append('C:/Users/JeanC/Parcial2_GDIA_Pipeline')
+from pathlib import Path
+import sys
+
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT_DIR))
 
 import logging_utils.logging_utils as lgu
 import ingesta as ingesta

@@ -24,3 +24,19 @@
 | 2026-06-11 20:04:36,389 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
 | 2026-06-11 20:04:36,391 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
 | 2026-06-11 20:04:36,408 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:25:08,050 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:25:08,053 --- INFO --- errores estructurales encontrados en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_errors_structural.csv |
+| 2026-06-11 20:25:08,055 --- INFO --- datos validados estructuralmente en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_validated_structural.csv |
+| 2026-06-11 20:25:08,068 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:25:54,896 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:25:54,898 --- INFO --- errores estructurales encontrados en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_errors_structural.csv |
+| 2026-06-11 20:25:54,901 --- INFO --- datos validados estructuralmente en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_validated_structural.csv |
+| 2026-06-11 20:25:54,914 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:26:38,429 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:26:38,431 --- INFO --- errores estructurales encontrados en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_errors_structural.csv |
+| 2026-06-11 20:26:38,433 --- INFO --- datos validados estructuralmente en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_validated_structural.csv |
+| 2026-06-11 20:26:38,447 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:29:28,544 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:29:28,546 --- INFO --- errores estructurales encontrados en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_errors_structural.csv |
+| 2026-06-11 20:29:28,548 --- INFO --- datos validados estructuralmente en el archivo viajes_transporte_raw exportados al archivo viajes_transporte_raw_validated_structural.csv |
+| 2026-06-11 20:29:28,561 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |

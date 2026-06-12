@@ -113,3 +113,12 @@
 | 2026-06-12 14:44:24,205 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
 | 2026-06-12 14:44:24,211 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
 | 2026-06-12 14:44:24,218 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-12 14:50:42,389 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-12 14:50:42,395 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-12 14:50:42,402 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-12 14:52:06,417 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-12 14:52:06,422 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-12 14:52:06,427 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-12 14:56:39,275 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-12 14:56:39,282 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-12 14:56:39,289 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |

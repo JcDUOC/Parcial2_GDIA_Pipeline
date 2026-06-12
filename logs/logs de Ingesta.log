@@ -362,3 +362,30 @@
 | 2026-06-12 14:44:24,158 --- INFO --- [Finalizado] datos transformados en DataFrame |
 | 2026-06-12 14:44:24,182 --- INFO --- iniciando lectura de datos. |
 | 2026-06-12 14:44:24,199 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:50:42,237 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:50:42,241 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:50:42,275 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:50:42,277 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:50:42,283 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:50:42,322 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:50:42,341 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:50:42,366 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:50:42,385 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:52:06,290 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:52:06,292 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:52:06,313 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:52:06,316 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:52:06,322 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:52:06,362 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:52:06,379 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:52:06,396 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:52:06,413 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:56:39,161 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:56:39,167 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:56:39,191 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:56:39,192 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:56:39,196 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:56:39,224 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:56:39,238 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:56:39,256 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:56:39,271 --- INFO --- [Finalizado] datos transformados en DataFrame |

@@ -6,7 +6,7 @@ from carga import cargar_datos_bd
 from pathlib import Path
 import sys
 BASE_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(str(BASE_DIR))
+sys.path.insert(0, str(BASE_DIR))
 
 
 

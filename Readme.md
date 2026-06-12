@@ -67,10 +67,10 @@ Python entre 3.10 y 3.14.
 
 ### Ejecución completa (recomendado)
 
-Desde la carpeta `Scripts/`:
+Desde la carpeta `PARCIAL2_GDIA_PIPELINE`:
 
 ```bash
-python main.py
+python Scripts/main.py
 ```
 
 Esto ejecuta las 4 etapas en orden: ingesta &rarr; limpieza &rarr; validación estructural &rarr; validación semántica &rarr; carga a BD.

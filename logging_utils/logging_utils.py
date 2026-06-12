@@ -3,8 +3,6 @@ import os
 
 from pathlib import Path
 import sys
-BASE_DIR = Path(__file__).resolve().parent
-sys.path.append(str(BASE_DIR))
 
 #esto permite crear un logger para registro de acciones en un archivo externo. Esto para cumplir con el principio 
 #de trazabilidad

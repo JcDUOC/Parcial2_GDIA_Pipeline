@@ -308,3 +308,12 @@
 | 2026-06-12 00:01:16,481 --- INFO --- [Finalizado] datos transformados en DataFrame |
 | 2026-06-12 00:01:16,516 --- INFO --- iniciando lectura de datos. |
 | 2026-06-12 00:01:16,542 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:18:52,036 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:18:52,040 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:18:52,084 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:18:52,086 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:18:52,090 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:18:52,167 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:18:52,188 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:18:52,209 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:18:52,227 --- INFO --- [Finalizado] datos transformados en DataFrame |

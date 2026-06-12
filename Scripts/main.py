@@ -1,4 +1,4 @@
-from ingesta import leer_archivo
+from ingesta import leer_archivo, guardar_archivo_bruto_url
 from limpieza import limpiar_datos
 from validacion_estructural import validar_estructuralmente
 from validacion_semantica import validar_semantica
@@ -11,8 +11,8 @@ sys.path.append(str(BASE_DIR))
 
 
 def main():
-
-    ruta_archivo = "data/raw/viajes_transporte_raw.csv"
+    
+    ruta_archivo = guardar_archivo_bruto_url()
 
     print("=" * 60)
     print("PIPELINE DE DATOS")

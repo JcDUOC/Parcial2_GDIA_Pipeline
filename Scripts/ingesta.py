@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 from pathlib import Path
 import sys
-
+import requests
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.append(str(ROOT_DIR))
@@ -64,8 +64,18 @@ def leer_archivo(direccion_archivo : str, sheet_excel = 0 ) -> pd.DataFrame:
 
         
 
-def guardar_archivo_bruto_url(url : str) -> None:
+def guardar_archivo_bruto_url(url : str = "https://drive.usercontent.google.com/download?id=1qI7EOHSY-xMH5-05fRIPalH2grxDaYt9&export=download&authuser=0&confirm=t&uuid=2b0118bb-e452-4542-9160-786a02e477c4&at=AAINaIKZ0_qxa-SvTcmRwbhbvWon:1781288030280") -> str:
     
 
     os.makedirs("data/raw", exist_ok=True)
 
+    response = requests.get(url)
+
+    print(response)
+
+    with open("data/raw/viajes_transporte_raw.csv", "wb") as f:
+        f.write(response.content)       
+
+    lgu.logging_ingesta.info("archivo viajes_transporte_raw.csv cargado en bruto en data/raw")
+
+    return "data/raw/viajes_transporte_raw.csv"

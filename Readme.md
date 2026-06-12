@@ -56,7 +56,7 @@ Parcial2_GDIA_Pipeline/
 ## 3. Requisitos
 
 ```bash
-pip install pandas numpy pandera pathlib
+pip install pandas numpy pandera pathlib requests
 ```
 
 Python entre 3.10 y 3.14.

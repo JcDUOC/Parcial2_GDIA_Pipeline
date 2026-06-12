@@ -317,3 +317,48 @@
 | 2026-06-12 14:18:52,188 --- INFO --- [Finalizado] datos transformados en DataFrame |
 | 2026-06-12 14:18:52,209 --- INFO --- iniciando lectura de datos. |
 | 2026-06-12 14:18:52,227 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:35:29,596 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:35:29,600 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:35:29,649 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:35:29,652 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:35:29,656 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:35:29,721 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:35:29,740 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:35:29,761 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:35:29,780 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:40:54,111 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:40:54,126 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:40:54,149 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:40:54,150 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:40:54,154 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:40:54,186 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:40:54,201 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:40:54,223 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:40:54,238 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:42:48,389 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:42:48,391 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:42:48,411 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:42:48,413 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:42:48,417 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:42:48,453 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:42:48,469 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:42:48,487 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:42:48,502 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:43:26,576 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:43:26,579 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:43:26,606 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:43:26,607 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:43:26,612 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:43:26,646 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:43:26,665 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:43:26,684 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:43:26,698 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:44:24,055 --- INFO --- archivo viajes_transporte_raw.csv cargado en bruto en data/raw |
+| 2026-06-12 14:44:24,058 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:44:24,093 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:44:24,094 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:44:24,099 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:44:24,139 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:44:24,158 --- INFO --- [Finalizado] datos transformados en DataFrame |
+| 2026-06-12 14:44:24,182 --- INFO --- iniciando lectura de datos. |
+| 2026-06-12 14:44:24,199 --- INFO --- [Finalizado] datos transformados en DataFrame |

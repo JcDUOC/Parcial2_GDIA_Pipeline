@@ -80,7 +80,7 @@ def fechas_en_formato_erroneo(df : pd.DataFrame) -> pd.DataFrame:
 
 def exportar_archivos(df_errores, df_validos, archivo_path_origen):
     os.makedirs("data/validated", exist_ok=True)
-    os.makedirs(".data/errors", exist_ok=True)
+    os.makedirs("data/errors", exist_ok=True)
     nombre_archivo_origen = Path(archivo_path_origen).stem
 
     ruta_errors = "data/errors/" + nombre_archivo_origen + "_errors_structural" + ".csv"

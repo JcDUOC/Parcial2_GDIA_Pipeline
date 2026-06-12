@@ -5,13 +5,13 @@ from validacion_semantica import validar_semantica
 from carga import cargar_datos_bd
 from pathlib import Path
 import sys
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.append(str(BASE_DIR))
 
 
 
 def main():
-    
+
     ruta_archivo = guardar_archivo_bruto_url()
 
     print("=" * 60)

@@ -1,0 +1,97 @@
+| 2026-06-11 19:39:55,708 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 19:39:55,711 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 19:40:32,856 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 19:40:32,873 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:01:47,372 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:01:47,374 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:01:56,322 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:01:56,324 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:04:36,410 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:04:36,413 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:25:08,069 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:25:08,071 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:25:54,915 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:25:54,917 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:26:38,449 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:26:38,451 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:29:28,562 --- INFO --- errores semanticos encontrados en el archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:29:28,564 --- INFO --- datos validados semanticamente del archivo viajes_transporte_raw_validated_structural exportados al archivo viajes_transporte_raw_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:35:04,452 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:35:04,462 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:36:14,542 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:36:14,544 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:39:32,050 --- INFO --- errores semanticos del archivo {nombre_archivo_origen} extraidos |
+| 2026-06-11 20:39:32,052 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:39:32,054 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:41:10,027 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:41:10,029 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:41:10,032 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:43:14,021 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:43:14,022 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:43:14,024 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:48:13,715 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:48:13,717 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:48:13,719 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:50:00,489 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:50:00,490 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:50:00,492 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:53:44,694 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:53:44,695 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:53:44,697 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:55:00,063 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:55:00,066 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:55:00,068 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:55:30,485 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:55:30,487 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:55:30,489 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:56:05,925 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:56:05,927 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:56:05,929 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:56:45,741 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:56:45,743 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:56:45,746 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:56:59,117 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:56:59,119 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:56:59,121 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:57:33,191 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:57:33,193 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:57:33,195 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 20:58:45,658 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 20:58:45,659 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 20:58:45,662 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:07:16,842 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:07:16,849 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:07:16,856 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:37:59,156 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:37:59,192 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:37:59,199 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:41:06,767 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:41:06,803 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:41:06,810 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:42:54,128 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:42:54,160 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:42:54,166 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:45:20,019 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:45:20,060 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:45:20,064 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:46:35,755 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:46:35,831 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:46:35,836 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:48:45,092 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:48:45,139 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:48:45,145 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:50:29,660 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:50:29,694 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:50:29,701 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:51:06,467 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:51:06,559 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:51:06,564 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:51:30,977 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:51:30,987 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:51:30,998 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-11 23:52:25,402 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-11 23:52:25,446 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-11 23:52:25,452 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-12 00:01:16,548 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-12 00:01:16,558 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-12 00:01:16,568 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |

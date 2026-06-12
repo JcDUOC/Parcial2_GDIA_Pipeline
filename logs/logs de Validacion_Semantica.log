@@ -92,3 +92,6 @@
 | 2026-06-11 23:52:25,402 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
 | 2026-06-11 23:52:25,446 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
 | 2026-06-11 23:52:25,452 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |
+| 2026-06-12 00:01:16,548 --- INFO --- errores semanticos del archivo datos_limpios_validated_structural extraidos |
+| 2026-06-12 00:01:16,558 --- INFO --- errores semanticos encontrados en el archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_errores_semantica.csv |
+| 2026-06-12 00:01:16,568 --- INFO --- datos validados semanticamente del archivo datos_limpios_validated_structural exportados al archivo datos_limpios_validated_structural_validated_semantica.csv |

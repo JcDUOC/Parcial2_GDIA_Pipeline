@@ -789,3 +789,21 @@
 | 2026-06-11 23:52:25,305 --- INFO --- Dataset limpio guardado en: data/clean/datos_limpios.csv |
 | 2026-06-11 23:52:25,305 --- INFO --- Shape final: 323 filas × 13 columnas. |
 | 2026-06-11 23:52:25,306 --- INFO --- FIN — Etapa 2: Limpieza y Transformación completada. |
+| 2026-06-12 00:01:16,382 --- INFO --- ============================================================ |
+| 2026-06-12 00:01:16,383 --- INFO --- INICIO — Etapa 2: Limpieza y Transformación |
+| 2026-06-12 00:01:16,383 --- INFO --- ============================================================ |
+| 2026-06-12 00:01:16,392 --- INFO --- Dataset recibido: 365 filas × 10 columnas. |
+| 2026-06-12 00:01:16,399 --- INFO --- Duplicados eliminados: 9 filas. |
+| 2026-06-12 00:01:16,405 --- WARNING --- Fechas inválidas en 'fecha_hora_entrada': 8 filas eliminadas. |
+| 2026-06-12 00:01:16,416 --- INFO --- Duraciones fuera de rango eliminadas: 10 filas. |
+| 2026-06-12 00:01:16,418 --- INFO --- Tarifas negativas convertidas a NaN: 6 registros. |
+| 2026-06-12 00:01:16,422 --- INFO --- Nulos en 'tarifa_pagada' imputados con mediana (800 CLP): 16 registros. |
+| 2026-06-12 00:01:16,424 --- INFO --- Registros con numero_pasajeros <= 0 eliminados: 6 filas. |
+| 2026-06-12 00:01:16,427 --- INFO --- Categorías de 'tipo_tarjeta' normalizadas al catálogo oficial. |
+| 2026-06-12 00:01:16,431 --- INFO --- Filas con nulos en columnas críticas eliminadas: 9 filas. |
+| 2026-06-12 00:01:16,434 --- INFO --- T1: Columna 'franja_horaria' creada. |
+| 2026-06-12 00:01:16,436 --- INFO --- T2: Columna 'dia_semana' creada. |
+| 2026-06-12 00:01:16,438 --- INFO --- T3: Columna 'evasion' creada (1 = evasión de tarifa). |
+| 2026-06-12 00:01:16,452 --- INFO --- Dataset limpio guardado en: data/clean/datos_limpios.csv |
+| 2026-06-12 00:01:16,452 --- INFO --- Shape final: 323 filas × 13 columnas. |
+| 2026-06-12 00:01:16,452 --- INFO --- FIN — Etapa 2: Limpieza y Transformación completada. |

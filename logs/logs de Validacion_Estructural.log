@@ -120,3 +120,6 @@
 | 2026-06-11 23:52:25,353 --- INFO --- errores semanticos del archivo datos_limpios extraidos |
 | 2026-06-11 23:52:25,359 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
 | 2026-06-11 23:52:25,369 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |
+| 2026-06-12 00:01:16,501 --- INFO --- errores semanticos del archivo datos_limpios extraidos |
+| 2026-06-12 00:01:16,506 --- INFO --- errores estructurales encontrados en el archivo datos_limpios exportados al archivo datos_limpios_errors_structural.csv |
+| 2026-06-12 00:01:16,515 --- INFO --- datos validados estructuralmente en el archivo datos_limpios exportados al archivo datos_limpios_validated_structural.csv |

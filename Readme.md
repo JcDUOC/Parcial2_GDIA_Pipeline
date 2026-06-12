@@ -168,6 +168,6 @@ Los registros inválidos se exportan a `data/errors/` con sufijo `_errors_struct
 
 Cada componente tiene su propio logger con nombre, lo que permite que cada etapa escriba en su propio archivo `.log` de forma independiente. Esto resuelve la limitación de `logging.basicConfig()`, que en Python solo se inicializa una vez por proceso y hace que los módulos posteriores no puedan escribir en sus propios archivos si uno anterior ya configuró el logger raíz.
 
----
 
-*Pipeline desarrollado con fines académicos — DuocUC 2026*
+
+
